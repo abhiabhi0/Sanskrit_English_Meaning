@@ -132,7 +132,7 @@ def eng_translation(file_name_r, file_name_w, driver, url):
 		print("File saved")
 
 def main():
-	file_name_r = "data1.txt"
+	file_name_r = "data.txt"
 	file_name_w = input("Enter output file name (add '.csv' after the name of file) - ")
 	url = 'https://www.learnsanskrit.cc/index.php?mode=3&direct=au&script=hk&tran_input='
 	driver = webdriver.Chrome(options=chrome_options, executable_path="/usr/bin/chromedriver")
